@@ -87,5 +87,89 @@
 }
 
 
+.social li a i{
+    color: black;
+    opacity: .5;
+    transition:.4s ;
+    -webkit-transition:.4s ;
+    -moz-transition:.4s ;
+    -ms-transition:.4s ;
+    -o-transition:.4s ;   
+    font-size: 20px;
+}
+
+.social li a:hover i{
+    color: #fbb710;
+}
+
+
+.header .image-holder{
+    position: relative;
+    cursor: pointer;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+
+
+.header .image-holder .text{
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 40px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.header .image-holder::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:0;
+    background-color: rgba(0, 0, 0, 0.378);
+    z-index: 1;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.header .image-holder:hover::before{
+
+    height: 100% !important;
+
+}
+
+.header .image-holder .text span{
+     transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+
+}
+
+.header .image-holder:hover .text,
+.header .image-holder:hover .text span{
+    color: white !important;
+}
+
+.header .image-holder .text::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: #fbb710;
+    width:75px;
+    height: 3px;
+}
+
+
 
 /* start navbar */
