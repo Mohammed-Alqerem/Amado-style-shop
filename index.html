@@ -13,6 +13,64 @@
   </head>
   <body>
 
+      <nav class="nav d-lg-none d-block sticky-top bg-white d-flex justify-content-between align-items-center px-4 pb-3 pt-3">
+    <div class="nav-logo">
+      <img src="./images/logo.png" alt="logo">
+    </div>
+    <div class="burger-bar">
+      <i class="fa-solid fa-bars" style="color: #fbb710; font-size: 34px; cursor: pointer;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></i>
+    </div>
+  </nav>
+
+  <div class="offcanvas d-lg-none d-block offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close btn-warning" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: #fbb710; "></button>
+  </div>
+  <div class="offcanvas-body">
+     <nav class="navbar d-flex flex-column align-items-start gap-5 p-5 pe-0">
+      <div class="nav-log mt-5">
+        <img src="./images/logo.png" alt="logo">
+      </div>
+      <ul class="nav-links list-unstyled d-flex flex-column gap-4 mt-3">
+        <li><a class="nav-link active" href="#">Home</a></li>
+        <li><a class="nav-link" href="#">Shop</a></li>
+        <li><a class="nav-link" href="#">product</a></li>
+        <li><a class="nav-link" href="#">Cart</a></li>
+        <li><a class="nav-link" href="#">Checkout</a></li>
+      </ul>
+      
+      <div class="nav-sub-links d-flex flex-column gap-3 mb-5">
+        <a href="#" class="discount-link py-3 px-4 fw-bold text-decoration-none ">%Discount%</a>
+        <a href="#" class="black-link py-3 px-4 fw-bold text-decoration-none">New this week</a>
+      </div>
+
+      <ul class="spesific-links list-unstyled d-flex flex-column gap-4 mt-5">
+
+        <li class="d-flex flex-wrap gap-3 align-items-center justify-content-start"><img src="./images/cart.png" alt="cart"><a class="text-decoration-none text-uppercase" href="#">Cart <span class="text-secondary">(0)</span></a></li>
+        <li class="d-flex flex-wrap gap-3  align-items-center"><img src="./images/favorites.png" alt="favorites"><a class="text-decoration-none text-uppercase" href="#">favorites</a></li>
+        <li class="d-flex flex-wrap gap-3  align-items-center"><img src="./images/search.png" alt="search"><a class="text-decoration-none text-uppercase" href="#">search</a></li>
+
+      </ul>
+
+   <!-- stop here -->
+      <ul class="social list-unstyled d-flex gap-4">
+
+        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+      </ul>
+
+
+
+
+            </nav>
+  </div>
+</div>
+
+
 
   <div class="header">
     <div class="container-fluid ps-0">
