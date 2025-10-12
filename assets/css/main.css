@@ -1,0 +1,91 @@
+
+
+
+/* start navbar */
+ .discount-link{
+    color:white;
+    background-color: #fbb710;
+    font-size: 19px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.discount-link:hover{
+    background-color: black;
+
+}
+
+.navbar .nav-links li .nav-link{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    position: relative;
+}
+
+.navbar .nav-links li .nav-link.active::before,
+.navbar .nav-links li .nav-link::before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -48px;
+    background-color: #fbb710;
+    width: 0;
+    height: 3px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.navbar .nav-links li .nav-link.active::before{
+    width: 40px;
+    height: 3px;
+
+
+}
+
+.navbar .nav-links li .nav-link:hover{
+    color: #fbb710;
+}
+
+.navbar .nav-links li .nav-link:hover::before{
+     width: 40px;
+
+}
+
+
+.black-link{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+}
+
+
+.spesific-links li a{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    color: black;
+      font-weight: 500;
+        font-size: 19px;
+      
+}
+
+.spesific-links li a:hover{
+    color: #fbb710;
+}
+
+
+
+/* start navbar */
