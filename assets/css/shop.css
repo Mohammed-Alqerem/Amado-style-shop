@@ -1,0 +1,47 @@
+
+
+.bg-shop-secondry{
+    background-color: #f5f7fa;
+}
+
+
+.large{
+    font-size: 17px;
+}
+
+
+
+.main-hover{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    cursor: pointer;
+}
+
+
+.main-hover:hover{
+    color: #fbb710 !important;
+}
+
+
+.width-40{
+
+    width: 30px;
+}
+
+.height-40{
+
+    height: 30px;
+}
+
+
+.fit-content{
+    width: fit-content;
+}
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
