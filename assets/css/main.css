@@ -1,5 +1,22 @@
 
 
+.main-color{
+    color: #fbb710;
+}
+
+
+.bg-footer-color{
+    background-color: #252525;
+}
+
+.bg-main-color{
+    background-color: #fbb710;
+}
+
+
+.bg-second-color{
+    background-color: #3c3c3c;
+}
 
 /* start navbar */
  .discount-link{
@@ -53,7 +70,16 @@
 
 }
 
-.navbar .nav-links li .nav-link:hover{
+.navbar .nav-links li .nav-link:hover,
+.footer-links li:hover{
+    color: #fbb710;
+}
+
+.footer-links li{
+    color: white;
+}
+
+.footer-links .active{
     color: #fbb710;
 }
 
