@@ -10,6 +10,10 @@
 }
 
 
+.bg-main-color{
+    background-color: #fbb710;
+}
+
 
 .main-hover{
     transition: .4s;
@@ -45,3 +49,8 @@
 .cursor-pointer{
     cursor: pointer;
 }
+
+.shop-header .form-select:focus{
+    box-shadow: 0 0 0 0 ;
+}
+
