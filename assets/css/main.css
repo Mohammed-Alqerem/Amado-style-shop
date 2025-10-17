@@ -13,6 +13,19 @@
     background-color: #fbb710;
 }
 
+.special-span-circle{
+
+    width: 11px;
+    height: 11px;
+    background-color: rgb(27, 186, 27);
+    display: inline-block;
+    margin-top: 2px;
+
+}
+
+.main-border{
+    border: solid 1px #fbb710;
+}
 
 .bg-second-color{
     background-color: #3c3c3c;
