@@ -209,6 +209,21 @@
     height: 3px;
 }
 
+.width-150{
+    width: 150px;
+}
 
+tr{
+    border-color: white ;
+}
+
+
+.second-bg{
+    background-color: #f5f7fa;
+}
+
+.margin-50{
+    margin-top: 86px;
+}
 
 /* start navbar */
